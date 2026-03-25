@@ -72,7 +72,7 @@
 
 import { motion } from "framer-motion";
 import { Shield } from "lucide-react";
-import founderImg from "@/assets/owner.png";
+import founderImg from "@/assets/owner.jpg";
 import inspectorImg from "@/assets/2nd owner.png";
 
 const team = [
