@@ -100,25 +100,25 @@
 //                 </span>
 //               </li>
 
-              
+
 
 //               <li className="flex items-center gap-3">
 //                 <Phone className="w-5 h-5 text-[rgb(194_171_49)] flex-shrink-0" />
-//                 <a href="tel:+919098484153" className="text-gray-400 text-sm hover:text-[rgb(194_171_49)] transition-colors">
-//                   +91 9098484153
+//                 <a href="tel:+911234567890" className="text-gray-400 text-sm hover:text-[rgb(194_171_49)] transition-colors">
+//                   +91 1234567890
 //                 </a>
 //               </li>
 //               <li className="flex items-center gap-3">
 //                 <Phone className="w-5 h-5 text-[rgb(194_171_49)] flex-shrink-0" />
-//                 <a href="tel:+917018010668" className="text-gray-400 text-sm hover:text-[rgb(194_171_49)] transition-colors">
-//                   +91 7018010668
+//                 <a href="tel:+911234567890" className="text-gray-400 text-sm hover:text-[rgb(194_171_49)] transition-colors">
+//                   +91 1234567890
 //                 </a>
 //               </li>
 
 //               <li className="flex items-center gap-3">
 //                 <Mail className="w-5 h-5 text-[rgb(194_171_49)] flex-shrink-0" />
 //                 <a href="mailto:prajapatimukatimotors@gmail.com" className="text-gray-400 text-sm hover:text-[rgb(194_171_49)] transition-colors">
-//                   prajapatimukatimotors@gmail.com
+//                  demo@gmail.com
 //                 </a>
 //               </li>
 //             </ul>
@@ -161,7 +161,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-6">
             <Link to="/" className="flex items-center gap-3">
-              
+
             </Link>
 
             <p className="text-gray-500 text-sm leading-relaxed">
@@ -238,22 +238,22 @@ const Footer = () => {
 
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-red-600" />
-                <a href="tel:+919098484153" className="text-gray-500 text-sm hover:text-red-600">
-                  +91 9098484153
+                <a href="tel:+911234567890" className="text-gray-500 text-sm hover:text-red-600">
+                  +91 1234567890
                 </a>
               </li>
 
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-red-600" />
-                <a href="tel:+917018010668" className="text-gray-500 text-sm hover:text-red-600">
-                  +91 7018010668
+                <a href="tel:+911234567890" className="text-gray-500 text-sm hover:text-red-600">
+                  +91 1234567890
                 </a>
               </li>
 
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-red-600" />
                 <a href="mailto:prajapatimukatimotors@gmail.com" className="text-gray-500 text-sm hover:text-red-600">
-                  prajapatimukatimotors@gmail.com
+                  demo@gmail.com
                 </a>
               </li>
             </ul>

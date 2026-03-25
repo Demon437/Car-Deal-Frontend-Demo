@@ -72,12 +72,12 @@
 
 import { motion } from "framer-motion";
 import { Shield } from "lucide-react";
-import founderImg from "@/assets/owner.jpeg";
-import inspectorImg from "@/assets/2nd owner.jpeg";
+import founderImg from "@/assets/owner.png";
+import inspectorImg from "@/assets/2nd owner.png";
 
 const team = [
-  { name: "RAHUL MUKATI", role: "Founder & CEO", description: "15+ years in the luxury automobile industry.", image: founderImg },
-  { name: "NILESH PRAJAPATI", role: "Head of Inspections", description: "Expert in 200-point car verification.", image: inspectorImg },
+  { name: "RAHUL", role: "Founder & CEO", description: "15+ years in the luxury automobile industry.", image: founderImg },
+  { name: "NILESH ", role: "Head of Inspections", description: "Expert in 200-point car verification.", image: inspectorImg },
 ];
 
 export const Team = () => (

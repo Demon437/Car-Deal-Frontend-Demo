@@ -114,21 +114,21 @@
 //               <Phone className="w-6 h-6 text-white" />
 //               <div>
 
-                
+
 //                 <a
-//                 href="tel:+919098484153"
+//                 href="tel:+911234567890"
 //                 className="flex items-center gap-2 text-sm text-gray-300 hover:text-white transition"
 //               >
 //                 {/* <Phone className="w-4 h-4" /> */}
-//                 +91 9098484153 
+//                 +91 1234567890 
 //               </a>
-            
+
 //               <a
-//                 href="tel:+917018010668"
+//                 href="tel:+911234567890"
 //                 className="flex items-center gap-2 text-sm text-gray-300 hover:text-white transition"
 //               >
 //                 {/* <Phone className="w-4 h-4" /> */}
-//                 +91 7018010668
+//                 +91 1234567890
 //               </a>
 //               </div>
 
@@ -180,11 +180,11 @@
 
 //                 <div className="pt-4 border-t border-blue-500/20 space-y-4">
 //                   <a
-//                     href="tel:+919098484153"
+//                     href="tel:+911234567890"
 //                     className="flex items-center gap-2 text-gray-300 hover:text-white"
 //                   >
 //                     <Phone className="w-5 h-5" />
-//                     +91 9098484153
+//                     +91 1234567890
 //                   </a>
 
 //                   <Button
@@ -286,11 +286,10 @@ const DesktopNav = ({ navLinks, isActive }: any) => (
       <Link
         key={link.href}
         to={link.href}
-        className={`nav-link text-sm font-medium tracking-wide transition-colors ${
-          isActive(link.href)
-            ? "text-red-600 active"
-            : "text-gray-600 hover:text-red-600"
-        }`}
+        className={`nav-link text-sm font-medium tracking-wide transition-colors ${isActive(link.href)
+          ? "text-red-600 active"
+          : "text-gray-600 hover:text-red-600"
+          }`}
       >
         {link.label}
       </Link>
@@ -305,17 +304,17 @@ const DesktopActions = () => (
 
     <div>
       <a
-        href="tel:+919098484153"
+        href="tel:+911234567890"
         className="flex items-center gap-2 text-sm text-gray-600 hover:text-red-600 transition"
       >
-        +91 9098484153
+        +91 1234567890
       </a>
 
       <a
-        href="tel:+917018010668"
+        href="tel:+911234567890"
         className="flex items-center gap-2 text-sm text-gray-600 hover:text-red-600 transition"
       >
-        +91 7018010668
+        +91 1234567890
       </a>
     </div>
 
@@ -337,11 +336,10 @@ const MobileMenu = ({ navLinks, isActive, setIsOpen }: any) => (
         <Link
           key={link.href}
           to={link.href}
-          className={`text-lg font-medium transition ${
-            isActive(link.href)
-              ? "text-red-600"
-              : "text-gray-700 hover:text-red-600"
-          }`}
+          className={`text-lg font-medium transition ${isActive(link.href)
+            ? "text-red-600"
+            : "text-gray-700 hover:text-red-600"
+            }`}
           onClick={() => setIsOpen(false)}
         >
           {link.label === "EMI Calculator" && (
@@ -353,11 +351,11 @@ const MobileMenu = ({ navLinks, isActive, setIsOpen }: any) => (
 
       <div className="pt-4 border-t border-gray-200 space-y-4">
         <a
-          href="tel:+919098484153"
+          href="tel:+911234567890"
           className="flex items-center gap-2 text-gray-700 hover:text-red-600"
         >
           <Phone className="w-5 h-5" />
-          +91 9098484153
+          +91 1234567890
         </a>
 
         <Button
